@@ -51,5 +51,5 @@ We enter the BCSM-SGX, which is in the sample code, and make.
 cd sgx/samplecode/BCSM_SGX
 make
 cd bin
-./app
+./app 1>OUTPUT 2>LOG
 ```
